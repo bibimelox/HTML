@@ -1,0 +1,48 @@
+@charset "UTF-8"
+
+* {
+    /* Altura em que o CSS vai alcançar */
+    height: 100%;
+    /* Fonte das Letras */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #F2D7B6, #A68C6D);
+}
+
+main {
+    /* Main é uma espécie de div */
+
+    /* cor da main */
+    background-color: white;
+    /* largura que vai ocupar a tela */
+    width: 600px;
+    /* margem do conteúdo da main */
+    padding: 10px;
+    /* centralizar na tela */
+    margin: auto;
+    /* Arredondamento da borda */
+    border-radius: 10px;
+    /* Sombreamento */
+    box-shadow: 5px 5px 15px rgba(67, 45, 19, 0.441);
+}
+
+h1 {
+    /* cor da letra */
+    color: #592C28;
+    /* centralizar o título */
+    text-align: center;
+    /* Sombra do texto */
+    text-shadow: 1px 1px 2px #cc493d;
+}
+
+h2 {
+    color: #8C3D35;
+}
+
+p {
+    /* Texto alinhado no canto */
+    text-align: justify;
+    color: #000;
+}
